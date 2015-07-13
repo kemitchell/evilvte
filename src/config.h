@@ -62,7 +62,7 @@
 // #define DEFAULT_DIRECTORY      g_get_current_dir()
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
-#define FONT "Monospace 12"
+#define FONT "Droid Sans Mono 12"
 // #define FONT                   "Monospace 10"
 #define FONT_ANTI_ALIAS TRUE
 // #define FONT_ANTI_ALIAS        TRUE
