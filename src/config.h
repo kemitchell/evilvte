@@ -63,9 +63,7 @@
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
 #define FONT "Droid Sans Mono 12"
-// #define FONT                   "Monospace 10"
 #define FONT_ANTI_ALIAS TRUE
-// #define FONT_ANTI_ALIAS        TRUE
 // #define FONT_ENABLE_BOLD_TEXT  TRUE
 // #define MOUSE_CTRL_SATURATION  TRUE  /* Scroll left or right to adjust it  */
 // #define MOUSE_CURSOR_AUTOHIDE  TRUE
@@ -88,12 +86,12 @@
 
 #define    MENU                   FALSE
 // #define MENU_ENCODING_LIST     "BIG-5", "Default Encoding", "GBK", "EUC-JP"
-// #define MENU_MATCH_STRING_EXEC "firefox"
-// #define      MATCH_STRING_L    "firefox" /* left click to open without menu*/
-// #define      MATCH_STRING_M    "firefox" /* middle click to open           */
-// #define      MATCH_STRING_HTTP TRUE      /* Detect http(s) and ftp(s)      */
-// #define      MATCH_STRING_MAIL TRUE      /* Detect mailto:                 */
-// #define      MATCH_STRING_FILE TRUE      /* Detect file:///                */
+#define MENU_MATCH_STRING_EXEC "x-www-browser"
+#define      MATCH_STRING_L    "x-www-browser" /* left click to open without menu*/
+#define      MATCH_STRING_M    "x-www-browser" /* middle click to open           */
+#define      MATCH_STRING_HTTP TRUE      /* Detect http(s) and ftp(s)      */
+#define      MATCH_STRING_MAIL TRUE      /* Detect mailto:                 */
+#define      MATCH_STRING_FILE TRUE      /* Detect file:///                */
 // #define MENU_CUSTOM            "Copy", "Separator", "Paste", "Separator"
            /* Options: "Copy",         "Zoom in",       "Add tab",
             *          "Paste",        "Zoom out",      "Remove tab",
